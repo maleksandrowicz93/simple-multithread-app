@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 
 public class OtodomMultithread {
 
-    //2473
+    //1926
 
     public static void main(String[] args) throws IOException {
 

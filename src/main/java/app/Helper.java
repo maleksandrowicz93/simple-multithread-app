@@ -12,13 +12,13 @@ public class Helper {
         BufferedReader in = new BufferedReader(new InputStreamReader(otodom.openStream()));
 
         String inputLine;
-        StringBuilder stringBuilder = new StringBuilder();
+        StringBuffer stringBuffer = new StringBuffer();
         while ((inputLine = in.readLine()) != null) {
-            stringBuilder.append(inputLine);
-            stringBuilder.append(System.lineSeparator());
+            stringBuffer.append(inputLine);
+            stringBuffer.append(System.lineSeparator());
         }
         in.close();
-        return stringBuilder.toString();
+        return stringBuffer.toString();
     }
 
     public static Set<String> getSetOfLinks(String content) {
