@@ -7,11 +7,11 @@ import java.util.concurrent.Executors;
 
 public class OtodomMultithread {
 
-    //1926
+    //1789
 
     public static void main(String[] args) throws IOException {
 
-        ExecutorService executorService = Executors.newFixedThreadPool(30);
+        ExecutorService executorService = Executors.newFixedThreadPool(7);
 
         long start = System.currentTimeMillis();
 
